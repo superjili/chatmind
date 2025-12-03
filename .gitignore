@@ -1,0 +1,35 @@
+# Root ignores
+node_modules/
+dist/
+build/
+.tmp/
+.cache/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Frontend (Vue/Vite)
+chatmind-frontend/node_modules/
+chatmind-frontend/dist/
+chatmind-frontend/.vite/
+chatmind-frontend/.cache/
+chatmind-frontend/*.log
+
+# Backend (Java/Spring)
+chatmind-backend/target/
+chatmind-backend/.classpath
+chatmind-backend/.project
+chatmind-backend/.settings/
+
+# Test artifacts
+coverage/
+
+# OS
+Desktop.ini
